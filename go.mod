@@ -1,3 +1,5 @@
-module github.com/juunini/simple-go-line-notify
+module github.com/Frontware/simple-go-line-notify
 
-go 1.15
+go 1.17
+
+

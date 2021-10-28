@@ -16,7 +16,7 @@ go get -u github.com/juunini/simple-go-line-notify
 ```go
 package main
 
-import "github.com/juunini/simple-go-line-notify/notify"
+import "github.com/Frontware/simple-go-line-notify"
 
 func main() {
     accessToken := "29jWoO****p70eK3AKA********ooHfusvDP6***ZmR"
