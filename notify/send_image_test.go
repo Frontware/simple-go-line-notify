@@ -1,9 +1,10 @@
 package notify_test
 
 import (
-	"github.com/Frontware/simple-go-line-notify"
 	"io/ioutil"
 	"testing"
+
+	"github.com/Frontware/simple-go-line-notify/notify"
 )
 
 func ExampleSendImage() {

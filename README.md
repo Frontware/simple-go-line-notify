@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-go get -u github.com/juunini/simple-go-line-notify
+go get -u github.com/Frontware/simple-go-line-notify
 ```
 
 ## Usage
