@@ -1,9 +1,10 @@
 package notify_test
 
 import (
-	"github.com/Frontware/simple-go-line-notify"
-	"io/ioutil"
+	"os"
 	"testing"
+
+	"github.com/frontware/simple-go-line-notify/notify"
 )
 
 func ExampleSendLocalImage() {
@@ -17,7 +18,7 @@ func ExampleSendLocalImage() {
 }
 
 func TestSendLocalImage(t *testing.T) {
-	accessToken, err := ioutil.ReadFile("test_token.txt")
+	accessToken, err := os.ReadFile("test_token.txt")
 	if err != nil {
 		return
 	}

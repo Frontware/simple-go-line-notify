@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-go get -u github.com/Frontware/simple-go-line-notify
+go get -u github.com/frontware/simple-go-line-notify
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ go get -u github.com/Frontware/simple-go-line-notify
 ```go
 package main
 
-import "github.com/Frontware/simple-go-line-notify"
+import "github.com/frontware/simple-go-line-notify"
 
 func main() {
     accessToken := "29jWoO****p70eK3AKA********ooHfusvDP6***ZmR"
